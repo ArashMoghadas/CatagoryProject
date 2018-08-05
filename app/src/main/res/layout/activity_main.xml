@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#e18e63"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Numbers"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:background="#00eaff"
+        android:onClick="numberClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Family"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:background="#55be00"
+        android:onClick="familyClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Days"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:background="#e9cc3b"
+        android:onClick="daysClick"/>
+
+</LinearLayout>
