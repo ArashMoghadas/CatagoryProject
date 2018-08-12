@@ -56,3 +56,4 @@ public class myAdapter extends ArrayAdapter<catagories> {
         return convertView;
     }
 }
+
